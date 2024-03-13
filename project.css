@@ -1,0 +1,57 @@
+body{
+    background-color:skyblue;
+     
+  }
+#main-div{
+     width:450px;
+     margin-left: 400px;
+     box-shadow: 4px 5px 5px gray,
+     -4px -5px 5px gray;
+     border-radius: 5px;
+}
+.vk{
+height:5px;
+border: top 40px;
+background: blue;
+}
+
+.sub-div{
+  padding:7px;
+  background-color:white;
+  border-radius:5px;
+   border:none;
+  margin:7px;
+  box-shadow: transparent;
+  
+  }
+  input{
+    border:transparent;
+    border-color:transparent;
+    box-shadow: transparent;
+    
+    
+    }
+label{
+font-size:15px;
+}
+button:hover{
+  color:white;
+  background-color: blue;
+ }
+ .mk12{
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-between;
+  background-color: skyblue;
+  width:420px;
+  border-radius: 5px;
+  margin-left: 16px;
+  height: 40px;
+ }
+ button{
+  box-shadow: 4px 7px 5px gray;
+  border-radius: 5px;
+  border: 2px solid gray;
+  padding: 5px;
+  height: 30px;
+ }

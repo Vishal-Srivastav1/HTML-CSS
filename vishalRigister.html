@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <Style>
+           #main{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+           }
+           .vk1{
+                border: 2px solid gray;
+                padding: 50px;
+                box-shadow: 4px 5px 5px gray,
+                -4px -5px 5px gray;
+                border-radius: 20px;
+           }
+
+            .sub{
+                margin-left: 20px;
+                padding: 7px;
+                display: flex;
+                justify-content: space-between;
+                width: 350px;
+                
+            }
+           input{
+            width: 170px;
+            box-shadow: 2px 2px 2px gray;
+            background-color: white;
+            
+           }
+          button:hover{
+            color:white;
+            background-color: blue;
+           }
+          #rg{
+             font-size: 30px;
+            margin-bottom: 40px;
+           }
+          button{
+            margin-top: 15px;
+            width: 100px;
+            font-size: 20px;
+            box-shadow: 3px 4px 5px gray;
+            padding: 5px;
+            border: 2px solid gray;
+            border-radius: 5px;
+            text-shadow: 1px 1px 1px black;
+          }
+          select{
+            width: 175px;
+            box-shadow: 2px 2px 2px gray;
+          }
+          label{
+            text-shadow: 1px 1px 1px gray;
+          }
+          span{
+            text-shadow: 2px 2px 2px gray;
+          }
+
+    </Style>
+
+</head>
+<body>
+      <form  method="post">
+    <div id="main">
+           <div class="vk1">
+            <div id="rg">
+                 <span>Registration</span>
+            </div>
+
+            <div class="sub">  <!--sub1-->
+                <label>First Name  </label>
+                <input type="text" id="text" name="Fn" placeholder="your answer" autofocus required/>
+            </div>
+    
+            <div class="sub">   <!--sub2-->
+                <label>Last Name    </label>
+                <input type="text" id="text" name="Ln" placeholder="your answer" required/>
+            </div>
+    
+            <div class="sub">   <!--sub3-->
+                <label>Date of Birth  </label>
+                <input type="date" id="date" name="date" >
+            </div>
+    
+            <div class="sub">    <!--sub4-->
+                <label>Country</label>
+                <select name="Country" id="Country">
+                       <option value=" ">Choise Country</option>
+                       <option value="India">India</option>
+                       <option value="Jordan">Jordan</option>
+                       <option value="Sweden">Sweden</option>
+                       <option value="Cuba">Cuba</option>
+                       <option value="Brazil">Brazil</option>
+                       <option value="Austraia">Austraia</option>
+                       <option value="Canada">Canada</option>
+                </select>
+            </div>
+    
+            <div class="sub">    <!--sub4-->
+                <label>City</label>
+                <select name="City" id="City">
+                       <option value=" ">Choise City</option>
+                       <option value="DB">Dudahi Bazar</option>
+                       <option value="F">fazilnagar</option>
+                       <option value="H">Hata,india</option>
+                       <option value="kp">Kaptangang</option>
+                       <option value="KH">khadda</option>
+                       <option value="ku">kushinagar</option>
+                       <option value="Pd">Padrauna</option>
+                       <option value="Rm">Ramkola</option>
+                       <option value="Se">Sewarhi</option>
+                </select>
+            </div>
+            <div class="sub">     <!--sub5-->
+                <label>State</label>
+                <select name="State" id="State">
+                       <option value=" ">State</option>
+                       <option value="An">Andhra pardesh</option>
+                       <option value="Ap">Arunachal pardesh</option>
+                       <option value="Ass">Assam</option>
+                       <option value="Bi">Bihar</option>
+                       <option value="Up">Uttar pardesh</option>
+                </select>
+            </div>
+             <button>Submit</button>
+    
+           </div>
+    </div>
+</form>
+</body>
+</html>

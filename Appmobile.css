@@ -1,0 +1,55 @@
+body{
+    background-color:black;
+    
+   }
+
+    #main{
+        border-radius: 10px;
+       margin-left:400px;
+            background-color:white;
+              width:325px;
+               
+               
+   }
+
+   .sub {
+              display:flex;
+            background-color:white;
+            color: black;
+            padding: 5px;
+              border-radius:5px;
+              margin-top: 5px;
+        }
+   img{
+        
+         width:45px;
+         height:45px;
+         margin-left:25px;
+   }
+   p{
+   margin-top:-6px;
+   margin-left:25px;
+   color: black;
+   }
+   .sub1:hover{
+    background:white;
+    color:black;
+    margin-top:-3px;
+    }
+    .rk{
+      height: 15px;
+      background-color: white;
+      border-radius: 5px;
+    }
+  a{
+    border: transparent;
+    color: black;
+    text-decoration: none;
+  }
+  #cl{
+    height:30px;
+    width: 318px;
+    border-color: transparent;
+    background-color: black;
+    color: black;
+ }
